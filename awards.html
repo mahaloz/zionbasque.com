@@ -1,21 +1,28 @@
 <html>
-<title>Zion Basque's Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/glitch.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: courier new, courier;}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 100;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 100px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-.accordion {
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for HTML5 for Linux version 5.2.0">
+  <title>Zion Basque's Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1">
+  <link rel="stylesheet" href=
+  "https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href=
+  "https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href=
+  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/glitch.css">
+  <style>
+  body, h1,h2,h3,h4,h5,h6 {font-family: courier new, courier;}
+  .w3-row-padding img {margin-bottom: 12px}
+  /* Set the width of the sidebar to 120px */
+  .w3-sidebar {width: 100;background: #222;}
+  /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+  #main {margin-left: 100px}
+  /* Remove margins from "page content" on small screens */
+  @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+  .accordion {
     background-color: #707070;
     color: white;
     cursor: pointer;
@@ -26,120 +33,145 @@ body, h1,h2,h3,h4,h5,h6 {font-family: courier new, courier;}
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-}
-</style>
+  }
+  </style>
+</head>
 <body class="w3-black">
-
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="images/icon.jpg" style="width:100%">
-  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="projects.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-terminal w3-xxlarge"></i>
-    <p>PROJECTS</p>
-  </a>
-  <a href="awards.html" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-trophy w3-xxlarge"></i>
-    <p>AWARDS</p>
-  </a>
-  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-address-card w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
-
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="about.html" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="projects.html" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
-    <a href="awards.html" class="w3-bar-item w3-button" style="width:25% !important">AWARDS</a>
-    <a href="contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
-
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="glitch w3-jumbo" data-text="Zion L. Basque">Zion L. Basque</h1>
-    <p>Hacker turned Security Researcher</p>
-    <img src="images/pic.jpg" alt="boy" class="w3-image" width="447" height="554">
-  </header>
-
-  <!-- About Section -->
-<h2 class="w3-text-white">Awards</h2>
-<hr style="width:200px" class="w3-opacity">
-
-
-<button onclick="myAccFunc('scholarships')" class="accordion w3-padding-16 w3-theme w3-button w3-block w3-left-align">Scholarships</button>
-<div id="scholarships" class="w3-hide w3-show">
-    <br>
-    <div id="scholarships" class="w3-container">
-    <div class="w3-card-4 w3-grey" style="width:100%">
-        <div class="w3-container w3-center">
-        <p><a href="https://apps.ksbe.edu/financialaid/post-highscholarships/">Naho'okama Scholarship</a>: 2018 - Present<br /><a href="https://apps.ksbe.edu/financialaid/post-highscholarships/mauo/">Pauahi Mauo Scholarship</a>: 2018 - Present<br /><a href="https://www.hawaiicommunityfoundation.org/THINKFund">THINK STEM Scholarship Fund</a>: 2018 - Present<br /><a href="https://students.asu.edu/scholarships/newamericanuniversity">ASU New American Deans Award</a>: 2017 - Present<br />ASU Grant: 2017 - Present<br /><a href="https://www.pauahi.org/2014/08/15/david-and-julia-desha-trust-bequeaths-500000-to-kamehameha-schools/">David and Julia Desha Scholarship</a>: 2019 - 2020<br /><a href="https://www.coca-colascholarsfoundation.org/apply/">APIA/Coca-Cola Foundation Scholarship</a>: 2019 - 2020<br /><a href="https://smartscholarshipprod.service-now.com/smart">DoD SMART Scholar</a> (not-accepted): 2018<br /><a href="http://the.honoluluadvertiser.com/article/2003/Dec/03/ln/ln44a.html">Hokulii Scholarship</a>: 2017-2018</p></div>
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class=
+  "w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <!-- Avatar image in top left corner -->
+    <img src="images/icon.jpg" style="width:100%"> <a href=
+    "index.html" class=
+    "w3-bar-item w3-button w3-padding-large w3-hover-black"><i class="fa fa-home w3-xxlarge">
+    </i>
+    <p>HOME</p></a> <a href="about.html" class=
+    "w3-bar-item w3-button w3-padding-large w3-hover-black"><i class="fa fa-user w3-xxlarge">
+    </i>
+    <p>ABOUT</p></a> <a href="projects.html" class=
+    "w3-bar-item w3-button w3-padding-large w3-hover-black"><i class="fa fa-terminal w3-xxlarge">
+    </i>
+    <p>PROJECTS</p></a> <a href="awards.html" class=
+    "w3-bar-item w3-button w3-padding-large w3-black"><i class=
+    "fa fa-trophy w3-xxlarge"></i>
+    <p>AWARDS</p></a> <a href="contact.html" class=
+    "w3-bar-item w3-button w3-padding-large w3-hover-black"><i class="fa fa-address-card w3-xxlarge">
+    </i>
+    <p>CONTACT</p></a>
+  </nav>
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class=
+    "w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="index.html" class="w3-bar-item w3-button" style=
+      "width:25% !important">HOME</a> <a href="about.html" class=
+      "w3-bar-item w3-button" style=
+      "width:25% !important">ABOUT</a> <a href="projects.html"
+      class="w3-bar-item w3-button" style=
+      "width:25% !important">PROJECTS</a> <a href="awards.html"
+      class="w3-bar-item w3-button" style=
+      "width:25% !important">AWARDS</a> <a href="contact.html"
+      class="w3-bar-item w3-button" style=
+      "width:25% !important">CONTACT</a>
     </div>
-  </div>  
-  <br>
-</div>    
-
-
-<button onclick="myAccFunc('competitions')" class="accordion w3-padding-16 w3-theme w3-button w3-block w3-left-align">Competitions</button>
-<div id="competitions" class="w3-hide">
-    <br>
-    <div class="w3-container">
-    <div class="w3-card-4 w3-grey" style="width:100%">
-        <div class="w3-container w3-center">
-        <p>CTF Hacking Competitions: 2017 - Present; Over 15 top 10 wins. (See Projects)<br /><a href="http://hacc.hawaii.gov/">Hawaii State Hackathon</a>: 1st (Open School Division), 2016<br /><a href="https://mualphatheta.org/">Mu Alpha Theta</a> National Math Competition: 3rd, 5th, 5th; 2014 - 2017</p></div>
-    </div>
-  </div>  
-  <br>
-</div> 
-    
-
-
-<button onclick="myAccFunc('academic')" class="accordion w3-padding-16 w3-theme w3-button w3-block w3-left-align">Academic Awards</button>
-<div id="academic" class="w3-hide">
-    <br>
-    <div class="w3-container">
-    <div class="w3-card-4 w3-grey" style="width:100%">
-        <div class="w3-container w3-center">
-        <p><a href="https://www.afcea-hawaii.org/20170110_05/">AFCEA Student of the Month</a>: 2017<br />ASU Deans List: 2017 - Present</p> 
+  </div><!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black"
+    id="home">
+      <h1 class="glitch w3-jumbo" data-text="Zion L. Basque">Zion
+      L. Basque</h1>
+      <p>Hacker turned Security Researcher</p><img src=
+      "images/pic.jpg" alt="boy" class="w3-image" width="447"
+      height="554">
+    </header><!-- About Section -->
+    <h2 class="w3-text-white">Awards</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <button onclick="myAccFunc('scholarships')" class=
+    "accordion w3-padding-16 w3-theme w3-button w3-block w3-left-align">Scholarships</button>
+    <div id="scholarships" class="w3-hide w3-show">
+      <br>
+      <div id="scholarships" class="w3-container">
+        <div class="w3-card-4 w3-grey" style="width:100%">
+          <div class="w3-container w3-center">
+            <p><a href=
+            "https://apps.ksbe.edu/financialaid/post-highscholarships/">
+            Naho'okama Scholarship</a>: 2018 - Present<br>
+            <a href=
+            "https://apps.ksbe.edu/financialaid/post-highscholarships/mauo/">
+            Pauahi Mauo Scholarship</a>: 2018 - Present<br>
+            <a href=
+            "https://www.hawaiicommunityfoundation.org/THINKFund">THINK
+            STEM Scholarship Fund</a>: 2018 - Present<br>
+            <a href=
+            "https://students.asu.edu/scholarships/newamericanuniversity">
+            ASU New American Deans Award</a>: 2017 - Present<br>
+            ASU Grant: 2017 - Present<br>
+            <a href=
+            "https://www.pauahi.org/2014/08/15/david-and-julia-desha-trust-bequeaths-500000-to-kamehameha-schools/">
+            David and Julia Desha Scholarship</a>: 2019 - 2020<br>
+            <a href=
+            "https://www.coca-colascholarsfoundation.org/apply/">APIA/Coca-Cola
+            Foundation Scholarship</a>: 2019 - 2020<br>
+            <a href=
+            "https://smartscholarshipprod.service-now.com/smart">DoD
+            SMART Scholar</a> (not-accepted): 2018<br>
+            <a href=
+            "http://the.honoluluadvertiser.com/article/2003/Dec/03/ln/ln44a.html">
+            Hokulii Scholarship</a>: 2017-2018</p>
+          </div>
         </div>
-    </div>
-  </div>  
-  <br>
-</div>
-
-<!-- END PAGE CONTENT -->
-</div>
-
-<!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
-<script>
-// Side navigation
-function w3_open() {
+      </div><br>
+    </div><button onclick="myAccFunc('competitions')" class=
+    "accordion w3-padding-16 w3-theme w3-button w3-block w3-left-align">Competitions</button>
+    <div id="competitions" class="w3-hide">
+      <br>
+      <div class="w3-container">
+        <div class="w3-card-4 w3-grey" style="width:100%">
+          <div class="w3-container w3-center">
+            <p>CTF Hacking Competitions: 2017 - Present; Over 15
+            top 10 wins. (See Projects)<br>
+            <a href="http://hacc.hawaii.gov/">Hawaii State
+            Hackathon</a>: 1st (Open School Division), 2016<br>
+            <a href="https://mualphatheta.org/">Mu Alpha Theta</a>
+            National Math Competition: 3rd, 5th, 5th; 2014 -
+            2017</p>
+          </div>
+        </div>
+      </div><br>
+    </div><button onclick="myAccFunc('academic')" class=
+    "accordion w3-padding-16 w3-theme w3-button w3-block w3-left-align">Academic
+    Awards</button>
+    <div id="academic" class="w3-hide">
+      <br>
+      <div class="w3-container">
+        <div class="w3-card-4 w3-grey" style="width:100%">
+          <div class="w3-container w3-center">
+            <p><a href=
+            "https://www.afcea-hawaii.org/20170110_05/">AFCEA
+            Student of the Month</a>: 2017<br>
+            ASU Deans List: 2017 - Present</p>
+          </div>
+        </div>
+      </div><br>
+    </div><!-- END PAGE CONTENT -->
+  </div>
+  <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
+  <script>
+  // Side navigation
+  function w3_open() {
     var x = document.getElementById("mySidebar");
     x.style.width = "100%";
     x.style.fontSize = "40px";
     x.style.paddingTop = "10%";
     x.style.display = "block";
-}
-function w3_close() {
+  }
+  function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
-}
+  }
 
-// Tabs
-function openCity(evt, cityName) {
+  // Tabs
+  function openCity(evt, cityName) {
   var i;
   var x = document.getElementsByClassName("city");
   for (i = 0; i < x.length; i++) {
@@ -151,13 +183,13 @@ function openCity(evt, cityName) {
   }
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " w3-dark-grey";
-}
+  }
 
-var mybtn = document.getElementsByClassName("testbtn")[0];
-mybtn.click();
+  var mybtn = document.getElementsByClassName("testbtn")[0];
+  mybtn.click();
 
-// Accordions
-function myAccFunc(id) {
+  // Accordions
+  function myAccFunc(id) {
     var x = document.getElementById(id);
     x.classList.toggle("active");
     if (x.className.indexOf("w3-show") == -1) {
@@ -165,17 +197,17 @@ function myAccFunc(id) {
     } else { 
         x.className = x.className.replace(" w3-show", "");
     }
-}
+  }
 
-// Slideshows
-var slideIndex = 1;
+  // Slideshows
+  var slideIndex = 1;
 
-function plusDivs(n) {
-slideIndex = slideIndex + n;
-showDivs(slideIndex);
-}
+  function plusDivs(n) {
+  slideIndex = slideIndex + n;
+  showDivs(slideIndex);
+  }
 
-function showDivs(n) {
+  function showDivs(n) {
   var x = document.getElementsByClassName("mySlides");
   if (n > x.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = x.length} ;
@@ -183,19 +215,22 @@ function showDivs(n) {
      x[i].style.display = "none";  
   }
   x[slideIndex-1].style.display = "block";  
-}
+  }
 
-showDivs(1);
+  showDivs(1);
 
-</script>
-<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <a href="https://twitter.com/mahal0z"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-    <a href="https://www.linkedin.com/in/zion-basque-a15282124"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-    <a href="https://github.com/mahaloz/"><i class="fa fa-github w3-hover-opacity"></i></a>
-    <a href="https://www.thelandofzion.com"><i class="fa fa-user-circle w3-hover-opacity"></i></a>
-    <a href="https://www.mahaloz.re"><i class="fa fa-code w3-hover-opacity"></i></a>
-</footer>
+  </script>
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://twitter.com/mahal0z"><i class=
+    "fa fa-twitter w3-hover-opacity"></i></a> <a href=
+    "https://www.linkedin.com/in/zion-basque-a15282124"><i class=
+    "fa fa-linkedin w3-hover-opacity"></i></a> <a href=
+    "https://github.com/mahaloz/"><i class=
+    "fa fa-github w3-hover-opacity"></i></a> <a href=
+    "https://www.thelandofzion.com"><i class=
+    "fa fa-user-circle w3-hover-opacity"></i></a> <a href=
+    "https://www.mahaloz.re"><i class=
+    "fa fa-code w3-hover-opacity"></i></a>
+  </footer>
 </body>
 </html>
-
-

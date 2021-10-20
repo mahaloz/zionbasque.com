@@ -1,0 +1,206 @@
+<!-- Header Formatting -->
+<html>
+{% include header.html %}
+<body class="w3-black">
+{% include navigation.html %}
+<div class="w3-padding-large" id="main"> 
+<div class="w3-padding-large" id="main"> 
+
+<!-- COMPUTER SECURITY -->
+<h2 class="w3-text-white">Computer Security</h2>
+<hr style="width:200px" class="w3-opacity">
+<!--- RESEARCH RELATED -->
+<button onclick="myAccFunc('research')" class=
+"accordion w3-padding-16 w3-theme w3-button w3-block w3-left-align">
+SEFCOM Research Related
+</button>
+<div id="research" class="w3-hide w3-show">
+  <hr>
+  <div class="w3-container">
+    <div class="w3-border">
+        <!-- Button Defns -->
+      <div class="w3-bar w3-theme">
+        <button class=
+        "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+        "openCity(event,'overview')">Overview</button>
+        <button class=
+        "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+        "openCity(event,'noa')">No'a</button> <button class=
+        "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+        "openCity(event,'pihulu')">Pihulu</button>
+        <button class=
+        "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+        "openCity(event,'filler')">Filler</button>
+        <button class=
+        "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+        "openCity(event,'patcherex')">Patcherex</button>
+      </div>
+      <!-- Content --->
+      <div id="overview" class=
+      "w3-container city w3-animate-opacity">
+        <h2>Overview</h2>
+        <p>I’ve worked at Laboratory of Security Engineering
+        for Future Computing at Arizona State University. for
+        about 3 years with Dr. Shoshitaishvili. Since joining
+        the lab, I’ve had experience in a multitude of projects
+        from car hacking, to symbolic execution. Listed
+        here you will find some of my favorite and most recent
+        projects.</p>
+      </div>
+      <div id="noa" class=
+      "w3-container city w3-animate-opacity">
+        <h2>No'a</h2>
+        <p>No’a is a modified version of American Fuzzy Lop
+        (AFL) software, which is regarded as the Internet’s
+        best open source fuzzing system. No’a attempts to make
+        AFL’s seemingly random attempts at crashing a program
+        more accurate by loading and creating input with a
+        Neural Network implemented with Keras. Essentially,
+        No’a is NN attempt and Fuzzing to make hacking
+        automated under machine learning. Github Link:
+        https://github.com/mahaloz/Noa</p>
+      </div>
+      <div id="pihulu" class=
+      "w3-container city w3-animate-opacity">
+        <h2>Pihulu [deprecated]</h2>
+        <p>Pihulu is a nice self contained fuzzer created from
+        the bones up by analyzing jump calls in a binary
+        conditional tree, then applying simple techniques
+        talked about in the AFL whitepaper. This project was a
+        big inspiration for No’a. Github Link:
+        https://github.com/mahaloz/Pihulu</p>
+      </div>
+      <div id="filler" class=
+      "w3-container city w3-animate-opacity">
+        <h2>Filler [deprecated]</h2>
+        <p>Considering the high rate of automation in binary
+        analysis and exploitation, the question spawns: what
+        methods do have to preventing automated hacking. The
+        Cyber Grand Challenge (CGC) hosted by DARPA, proved
+        that we are on the brink of automation, but an
+        effective method to halting executors may be
+        Adversarial code injects. This started as project for a
+        class taught by Dr. Shoshitaishvili, but quickly turned
+        into its own testing framework. Github Link:
+        https://github.com/mahaloz/Filler</p>
+      </div>
+      <div id="patcherex" class=
+      "w3-container city w3-animate-opacity">
+        <h2>Patcherex [deprecated]</h2>
+        <p>As an offshoot from Filler, I worked very closely
+        with the Patcherex framework to attempt automated
+        patching to binaries in a adversarial matter against
+        frameworks such as Pihulu that attempt to analyze a
+        binary symbolically. Github Link:
+        https://github.com/angr/patcherex</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>
+
+<button onclick="myAccFunc('Shellphish')" class=
+"accordion w3-padding-16 w3-theme w3-button w3-block w3-left-align">Shellphish
+and pwndevils:</button>
+<div id="Shellphish" class="w3-hide">
+  <hr>
+  <div class="w3-container">
+    <div class="w3-border">
+      <div class="w3-bar w3-theme">
+        <button class=
+        "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+        "openCity(event,'Overview-2')">Overview</button>
+        <button class=
+        "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+        "openCity(event,'DEFCON')">DEFCON Assistant
+        Organizer</button> <button class=
+        "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+        "openCity(event,'iCTF')">iCTF Organizer</button>
+        <button class=
+        "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+        "openCity(event,'10s')">Top 10's</button>
+        <button class="w3-bar-item w3-button testbtn w3-padding-16"
+        onclick=
+        "openCity(event,'noob')">Noob-Pwner-Kit</button>
+      </div>
+      <div id="Overview-2" class=
+      "w3-container city w3-animate-opacity">
+        <h2>Overview</h2>
+        <p>In 2017 I joined the pwndevils hacking team to dive
+        into security headfirst. Since 2017, I’ve competed in
+        over 20 CTFs, and become the captain of the
+        undergraduate team for pwndevils. I’ve also been
+        invited into Shellphish, with which I play most CTF’s
+        now-a-days. This year, I compete in a CTF every
+        weekend, which lasts 48 hours on average.</p>
+      </div>
+      <div id="DEFCON" class=
+      "w3-container city w3-animate-opacity">
+        <h2>DEFCON Assistant Organizer</h2>
+        <p>In 2018 I was an assistant organizer for the
+        Official DEFCON CTF hosted in Nevada. This was an
+        amazing honor to work so closely with the Order of the
+        Overflow. I assisted in structural organization, LAN
+        server setup, and a few challenge testing editing for
+        the event. I may or may not be assisting again in 2019,
+        we’ll see..</p>
+      </div>
+      <div id="iCTF" class=
+      "w3-container city w3-animate-opacity">
+        <h2>iCTF Organizer</h2>
+        <p>In am one of the organizers for the yearly CTF, iCTF
+        hosted by University California at Santa Barbra, and
+        Arizona State University. For this CTF I work mostly
+        under Dr. Doupe of ASU. Event Link:
+        https://ictf2018.net/</p>
+      </div>
+      <div id="10s" class=
+      "w3-container city w3-animate-opacity">
+        <h2>Top 10's</h2>
+        <p style=
+        "margin-bottom: 0in; font-weight: normal; line-height: 100%;">
+        When competing in international CTF’s every weekend,
+        you get a win (top 10) every now and then.</p>
+        <p style=
+        "margin-bottom: 0in; font-weight: normal; line-height: 100%;">
+        Ranking Site: https://ctftime.org/stats/</p>
+        <p style=
+        "margin-bottom: 0in; font-weight: normal; line-height: 100%;">
+        2018:</p>
+        <p style=
+        "margin-bottom: 0in; font-weight: normal; line-height: 100%;">
+        Hackover CTF: 1<sup>st</sup></p>
+        <p style=
+        "margin-bottom: 0in; font-weight: normal; line-height: 100%;">
+        Teaser Dragon CTF: 1<sup>st</sup></p>
+        <p style=
+        "margin-bottom: 0in; font-weight: normal; line-height: 100%;">
+        Tokyo Westerners CTF: 10<sup>th</sup></p>
+        <p style=
+        "margin-bottom: 0in; font-weight: normal; line-height: 100%;">
+        White-Hat Grand Prix: 3<sup>rd</sup></p>
+        <p style=
+        "margin-bottom: 0in; font-weight: normal; line-height: 100%;">
+        &nbsp;</p>
+        <p style=
+        "margin-bottom: 0in; font-weight: normal; line-height: 100%;">
+        2017:</p>
+        <p style=
+        "margin-bottom: 0in; font-weight: normal; line-height: 100%;">
+        Hitcon CTF: 2<sup>nd</sup></p>
+      </div>
+      <div id="noob" class=
+      "w3-container city w3-animate-opacity">
+        <h2>Noob-Pwner-Kit</h2>
+        <p>The Noob-Pwnder-Kit is a github project where I
+        attempt to teach newbs how to pwn binaries in a
+        not-so-complex way. Github Link:
+        https://github.com/mahaloz/Noob-Pwner-Kit</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>
+{% include footer.html %}
+</body>
+</html>

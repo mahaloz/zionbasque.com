@@ -1,0 +1,161 @@
+<!-- Header Formatting -->
+<html>
+{% include header.html %}
+<body class="w3-black">
+{% include navigation.html %}
+<div class="w3-padding-large" id="main"> 
+<div class="w3-padding-large" id="main"> 
+
+<!-- COMPUTER SECURITY -->
+<h2 class="w3-text-white">Computer Security</h2>
+<hr style="width:200px" class="w3-opacity">
+<!--- RESEARCH RELATED -->
+<button onclick="myAccFunc('research')" class=
+"accordion w3-padding-16 w3-theme w3-button w3-block w3-left-align">
+SEFCOM Research Related
+</button>
+<div id="research" class="w3-hide w3-show">
+  <hr>
+  <div class="w3-container">
+    <div class="w3-border">
+        <!-- Button Defns -->
+      <div class="w3-bar w3-theme">
+        <button class=
+          "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+          "openCity(event,'alii_cfg')">Ali'i CFG
+        </button>
+        <button class=
+          "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+          "openCity(event,'binsync')">BinSync
+        </button>
+        <button class=
+          "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+          "openCity(event,'decomp2gef')">Decomp2GEF
+        </button>
+        <button class=
+          "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+          "openCity(event,'noa')">No'a
+        </button> 
+      </div>
+      <!-- Content --->
+      <div id="alii_cfg" class="w3-container city w3-animate-opacity">
+        <h2>Ali'i CFG</h2>
+        <p>When doing most automated analysis on binaries, programs without source, the analysis requires a control flow graph (CFG).
+        CFG's are widely used in various fields across computer science.
+        Security analysis use CFGs to automatically find vulnerabilities in software and decompile programs. Software developers
+        use CFG's to create wider test-cases for safer code. Compilers use CFG's to assure code correctness. </p>
+        
+        <p>Improvements in CFGs affect software across the board. In the Ali'i CFG project I'm working on resolving indirect jumps
+        and calls, coined Indirect Branches (IBs). These commonly appear when you have complex structures like classes or switch
+        statements. In even the simplest of programs, like the unix <code>mkdir</code> binary with 35 IBs, unresolved IBs play a significant
+        role in reducing the completeness of the CFG. To improve completeness, these IBs must be resolved. Work on this project is aimed
+        at being published at one of the big four security conferences. The code will be made available for free through the
+        <a href="https://github.com/angr/angr">angr</a>. Initial work on this project can be found <a href="https://furi.engineering.asu.edu/participant/basque-zion/">here</a>.</p>
+      </div>
+      
+      <div id="binsync" class="w3-container city w3-animate-opacity">
+        <h2>BinSync</h2>
+        <p>Understanding a foreign binary is not a task done in solidarity. Often, the understanding process of a program benefits
+        largely from the collaboration of multiple people. While understanding a program, a decompiler is often used for
+        static analysis. There exists many decompilers in the world, but the most commonly used are IDA Pro, Binary Ninja and
+        Ghidra. Each of these tools have a collaboration tool associated with them, but none boast the ability to both
+        integrate with other decompilers and sync data in a more fine-grained way. My project BinSync is the answer to this
+        problem. Most of this work is engineering based, but it is also rooted in the science of working reverse engineering. </p>
+  
+        <p>The code for this work is constantly being worked on and currently supports angr-management, IDA Pro, Binary Ninja
+        and has headless support for Ghidra. You can find the code at <a href="https://github.com/angr/binsync">angr/binsync</a>. If
+        you are interested in getting involved email me.</p>
+      </div>
+
+      <div id="decomp2gef" class="w3-container city w3-animate-opacity">
+        <h2>Decomp2GEF</h2>
+        <p>Decomp2GEF is a GEF plugin to bridge the gap of dynamic and static analysis. At the root of decomp2gef, you can use decompiled
+        code in GDB as a normal source program. Work on this project is still ongoing and can be found at <a href="https://github.com/mahaloz/decomp2gef">mahaloz/decomp2gef</a></p>
+      </div>
+
+      <div id="noa" class=
+      "w3-container city w3-animate-opacity">
+        <h2>No'a</h2>
+        <p><a href="https://arxiv.org/pdf/1812.00140.pdf">Fuzzing</a> is an automated process to discover vulnerabilities in programs.
+        One of the most common ways to discover 0-days in high-impact targets nowadays is through fuzzing binary-only
+        targets, which presents a special set of problems. There are many areas for improvement in fuzzing. For No'a, I
+        targeted the mutation strategy fuzzers use. With a case-study of <a href="https://github.com/google/AFL">AFL</a>, I explored and developed a
+        machine-learning framework to learn the parent to child mutation strategy of a various <a href="https://www.darpa.mil/program/cyber-grand-challenge">DARPA CGC</a>
+        binaries. Though not reproducible on a large scale, No'a did shed some light on the replicability of fuzzing
+        mutation engines. For access to the code, email me. The Hawaiian word No'a is a reference to the game of the same name that is based
+        around guessing points of attack.</p>
+      </div>
+
+    </div>
+  </div>
+  <hr>
+</div>
+
+<button onclick="myAccFunc('ctf')" class=
+"accordion w3-padding-16 w3-theme w3-button w3-block w3-left-align">CTF</button>
+<div id="ctf" class="w3-hide">
+  <hr>
+  <div class="w3-container">
+    <div class="w3-border">
+      <div class="w3-bar w3-theme">
+        <button class=
+          "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+          "openCity(event,'Organizing')">Organizing
+        </button>
+        <button class=
+          "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+          "openCity(event,'Competing')">Competing
+        </button> 
+        <button class=
+          "w3-bar-item w3-button testbtn w3-padding-16" onclick=
+          "openCity(event,'Educating')">Educating
+        </button>
+      
+      </div>
+
+      <div id="Organizing" class="w3-container city w3-animate-opacity">
+        <h2>Organizing</h2>
+        <p>Without organizers, whom usually do everything for free, the CTF community would not exist. I think organizing is a great
+        opportunity to give back to the community while also forwarding you expertise in challenges. I've had some experience with this.</p>
+        
+        <h3>DEF CON CTF Finals</h3>
+        <ul>
+        <li>Years: 2018</li>
+        </ul>
+        <p>2018 was my first year to DEF CON. I was lucky enough to be working under the <a href="">Order Of the Overflow (OOO)</a> that year
+        and helped them run the CTF that is considered the "Olympics of Hacking." I mostly worked on infrastructure and challenge
+        testing. </p>
+        
+        <h3>iCTF</h3>
+        <ul>
+        <li>Years: 2018, 2021</li>
+        </ul>
+        <p>iCTF is a yearly Attack-Defence CTF put on by Shellphish. I have worked both as an infrastructure builder and a challenge writer.</p>
+      </div>
+      
+      <div id="Competing" class="w3-container city w3-animate-opacity">
+        <h2>Competing</h2>
+        <p>I started CTFing back in 2018. I played on both <a href="">Shellphish</a> and <a href="">ASU Hacking Club</a>, formally known as the pwndevils.
+        Between then and now, I've competed in more than <code>100</code> CTFs. I've played CTF finals in New York City, Vegas, Vietnam,
+        Poland, and Abu Dhabi to name a few. To see all the competitions we've done well in, see our <a href="https://ctftime.org/team/285/">CTFTime page</a>.</p>
+      
+      </div>
+      
+      <div id="Educating" class="w3-container city w3-animate-opacity">
+        <h2>Educating</h2>
+        <p>I've done a lot of work in education over my four years as an undergrad at ASU. For two years I served as the main lecturer
+        for the local ASU Hacking Club where I taught weekly meetings on binary exploitation and reversing. Through that experience,
+        I've also condensed a lot of this educational material into a readable guide called <a href="https://ike.mahaloz.re/">'ike</a>. </p>
+        
+        <p>I've also spent a significant amount of time working on the online binary exploitation platform <a href="https://pwn.college/">pwn.college</a>.
+        I've both written challenges and helped develop the wider ideas of the platform with Yan and Connor. I've also had some
+        work in translating this content to <a href="https://ctf-wiki.org/">CTF-Wiki</a>. </p>
+      </div>
+
+    </div>
+  </div>
+  <hr>
+</div>
+{% include footer.html %}
+</body>
+</html>

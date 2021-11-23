@@ -1,0 +1,28 @@
+<html>
+  {% include header.html %}
+  
+  <body class="w3-black">
+  {% include navigation.html %}
+    
+  <!-- Zion Basque & Picture -->
+  <div class="w3-padding-large" id="main">
+    {% if page.path == "index.md" %}
+    <header class="w3-container w3-padding-32 w3-center w3-black"
+    id="home">
+      <h2 class="glitch w3-jumbo" data-text="Zion Leonahenahe">Zion Leonahenahe</h2>
+      <h2 class="glitch w3-jumbo" data-text="Basque">Basque</h2>
+      <p>Hacker turned Security Researcher</p><img src=
+      "images/pic.jpg" alt="boy" class="w3-image" width="447"
+      height="554">
+    </header>
+    {% endif %}
+    
+    <!-- Content -->
+    <div class="w3-content w3-justify w3-text-white w3-padding-64">
+        {{ content }}
+    </div>
+
+    <!-- Footer -->
+    {% include footer.html %}
+  </div>
+</body>

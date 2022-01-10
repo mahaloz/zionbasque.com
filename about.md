@@ -12,10 +12,11 @@ a Native Hawaiian boarding school called [Kamehameha Schools](https://www.ksbe.e
 To attend the school, I lived on Oahu for four years boarding at Kamehameha.
 
 At Kamehameha I first stated to pursue my interests in computer science. I was first drawn into the love 
-for programming by my then and now favorite game Minecraft. I taught myself Java and a little of Python 
-so that I could understand how programs worked. In my free periods at school I used to mess with the
-way MacOS identified good and bad programs through the packaging system known as Apps. 
+for programming by my favorite game Minecraft. I taught myself Java, and a little Python, 
+so that I could understand how programs worked. In my free periods at school I would mess with the
+way MacOS identified good and bad programs through their App packaging system. For all intensive purposes, I was a complete
+noob to security.
 
 With some struggle, I started attending Arizona State University. There, I joined the [pwndevils](https://pwndevils.com).
-I started CTFing each weekend. Eventually, I started doing good enough to be invited to do a P.h.D. at
+I started CTFing each weekend. Eventually, I started doing good enough to be invited to do a Ph.D. at
 the lab I had started working at as an undergrad. The rest is history.

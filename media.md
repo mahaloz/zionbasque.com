@@ -11,7 +11,7 @@ layout: default
 - ["Cybersecurity competition challenges next generation of security experts"](https://cec.asu.edu/news/cybersecurity-competition-challenges-next-generation-security-experts), _Arizona State University_
 - ["Meet the ASU Hacking Club"](https://www.statepress.com/article/2021/09/asu-hacking-club-rebrands), _The State Press_
 - ["Ka Wai Ola May 2021 Issue"](https://kawaiola.news/pokenuhou/news-briefs-may-2021/), _Ka Wai Ola_
-- [The College Tour Season 1: Arizona State University](https://www.thecollegetour.com/), _Amazon Prime Video_ (TV Show) [[Clip]]([https://youtu.be/YW2p0ctzK9c?t=1935])
+- [The College Tour Season 1: Arizona State University](https://www.thecollegetour.com/), _Amazon Prime Video_ (TV Show) [[Clip]](https://youtu.be/YW2p0ctzK9c?t=1935)
 
 ***
 

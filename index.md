@@ -21,7 +21,7 @@ If you're looking for some more technical-oriented content, check out my technic
 - Twitter: [@mahal0z](https://twitter.com/mahal0z)
 - Discord: [@mahaloz](https://discordapp.com/users/593280144962224138)
 
-<button class="w3-button w3-light-grey w3-padding-large w3-section" onclick="location.href='https://github.com/mahaloz/zionbasque.com/raw/master/files/CV_Academic.pdf'" type="button">
+<button class="w3-button w3-light-grey w3-padding-large w3-section" onclick="location.href='/files/CV_Academic.pdf'" type="button">
     <i class="fa fa-download"></i> 
     Curriculum vitae
 </button>

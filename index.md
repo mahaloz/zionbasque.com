@@ -22,7 +22,7 @@ Using my experience on the team, I've created a variety **educational** material
 If you're looking for technical-oriented content, like CVE announcements, writeups, and research musings, then take a look at my technical blog [mahaloz.re](https://mahaloz.re).
 I also make post announcements on my [Twitter](https://twitter.com/mahal0z).
 
-#### Quick Links
+### Quick Links
 - [Google Scholar](https://scholar.google.com/citations?user=RKZkfRQAAAAJ&hl=en)
 - [GitHub](https://github.com/mahaloz)
 - [Twitter](https://twitter.com/mahal0z)
@@ -33,9 +33,8 @@ I also make post announcements on my [Twitter](https://twitter.com/mahal0z).
     Curriculum vitae
 </button>
 
-<br>
-
-#### Contact 
+### Contact 
 - Email: [zion\@zionbasque.com](mailto:zion@zionbasque.com)
 
+<br>
 

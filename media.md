@@ -6,7 +6,7 @@ layout: default
 ## Media 
 <hr style="width:200px" class="w3-opacity">
 
-### Talks
+### Invited Talks
 - ["Keynote: Your Teammate Isn’t Human! Mixing Decompilation and AI for Modern Reverse Engineering"](https://www.youtube.com/@HacksInTaiwan), _HITCON_, 2023
 - ["Modern Approaches in Human-Centric Decompilation"](https://icdt.osu.edu/events/2023/03/virtual-event-modern-approaches-human-centric-decompilation), _Ohio State University_, 2023
 - ["Bridging the gap in the static and dynamic analysis of binaries through decompiler tomfoolery!"](https://www.youtube.com/watch?v=-J8fGMt6UmE&t=22441s), _Cactus Con_, 2023

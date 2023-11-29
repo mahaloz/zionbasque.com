@@ -17,7 +17,7 @@ Research prototypes and tools from these works can be found on [my GitHub](https
 
 I **hack** with the epic team [Shellphish](http://shellphish.net/), of which I was a previous co-captain. 
 We play in hacking competitions called [CTFs](https://ctftime.org/ctf-wtf/), organize competitions, and develop new tools for the community. 
-Using my experience on the team, I've created a variety **educational** materials found in [pwn.college](https://pwn.college), ['Ike](https://ike.mahaloz.re), and lectures presented for the [ASU Hacking Club](https://asuhacking.club). 
+Using my experience on the team, I've created a variety of **educational** materials found in [pwn.college](https://pwn.college), ['Ike](https://ike.mahaloz.re), and lectures presented for the [ASU Hacking Club](https://asuhacking.club). 
 
 If you're looking for technical-oriented content, like CVE announcements, writeups, and research musings, then take a look at my technical blog [mahaloz.re](https://mahaloz.re).
 I also make post announcements on my [Twitter](https://twitter.com/mahal0z).

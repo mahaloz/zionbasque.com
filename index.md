@@ -34,7 +34,7 @@ I also make post announcements on my [Twitter](https://twitter.com/mahal0z).
 </button>
 
 ### Contact 
-- Email: [zion@zionbasque.com](mailto:zion@zionbasque.com)
+- Email: [zbasque@asu.edu](mailto:zbasque@asu.edu)
 
 <br>
 

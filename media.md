@@ -8,7 +8,7 @@ layout: default
 
 ### Invited Talks
 - "Towards Human-Centric Decompilation", _NSA Research_, 2024
-- "ARTIPHISHELL Intelligence: Advancing Autonomous Software Security with AI", _Oracle, 2024
+- "ARTIPHISHELL Intelligence: Advancing Autonomous Software Security with AI", _Oracle_, 2024
 - ["Keynote: Your Teammate Isn’t Human! Mixing Decompilation and AI for Modern Reverse Engineering"](https://youtu.be/HbrebQiFLDs?si=TJhKSju85jTLSsiT), _HITCON_, 2023
 - ["Modern Approaches in Human-Centric Decompilation"](https://icdt.osu.edu/events/2023/03/virtual-event-modern-approaches-human-centric-decompilation), _Ohio State University_, 2023
 - ["Bridging the gap in the static and dynamic analysis of binaries through decompiler tomfoolery!"](https://www.youtube.com/watch?v=-J8fGMt6UmE&t=22441s), _Cactus Con_, 2023

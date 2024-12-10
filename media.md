@@ -7,6 +7,8 @@ layout: default
 <hr style="width:200px" class="w3-opacity">
 
 ### Invited Talks
+- "Towards Human-Centric Decompilation", _NSA Research_, 2024
+- "ARTIPHISHELL Intelligence: Advancing Autonomous Software Security with AI", _Oracle, 2024
 - ["Keynote: Your Teammate Isn’t Human! Mixing Decompilation and AI for Modern Reverse Engineering"](https://youtu.be/HbrebQiFLDs?si=TJhKSju85jTLSsiT), _HITCON_, 2023
 - ["Modern Approaches in Human-Centric Decompilation"](https://icdt.osu.edu/events/2023/03/virtual-event-modern-approaches-human-centric-decompilation), _Ohio State University_, 2023
 - ["Bridging the gap in the static and dynamic analysis of binaries through decompiler tomfoolery!"](https://www.youtube.com/watch?v=-J8fGMt6UmE&t=22441s), _Cactus Con_, 2023
@@ -19,6 +21,8 @@ layout: default
 - ["Zion Basque Featured Project \| Fall 2020"](https://furi.engineering.asu.edu/participant/basque-zion/), _Arizona State University_, 2020
 
 ### News/Others
+- ["ASU students win $2M in cybersecurity competition"](https://www.fox10phoenix.com/video/1529594), _Fox 10 News_, 2024
+- ["Hackers race to win millions in contest to thwart cyberattacks with AI"](https://www.washingtonpost.com/technology/2024/07/27/pentagon-cybersecurity-ai-hackathon-darpa-challenge/), _Washington Post_, 2024
 - ["Ka Wai Ola May 2021 Issue"](https://kawaiola.news/nuhou/pokenuhou/news-briefs-may-2021/#attachment_9304), _Ka Wai Ola_, 2021
 - [The College Tour Season 1: Arizona State University](https://www.thecollegetour.com/), _Amazon Prime Video_ (TV Show) [[Clip]](https://youtu.be/YW2p0ctzK9c?t=1935), 2021
 - ["ForAllSecure Uncovers Vulnerability in Netflix DIAL Software"](https://securityboulevard.com/2019/09/forallsecure-uncovers-vulnerability-in-netflix-dial-software/), _Security Boulevard_ & _Axios_, 2019

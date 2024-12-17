@@ -7,6 +7,7 @@ layout: default
 <hr style="width:200px" class="w3-opacity">
 
 ### Invited Talks
+- "Improving the Understanding of Software Through Human-Centric Decompilation", _University of Hawaii, Manoa_, 2024
 - "Towards Human-Centric Decompilation", _NSA Research_, 2024
 - "ARTIPHISHELL Intelligence: Advancing Autonomous Software Security with AI", _Oracle_, 2024
 - ["Keynote: Your Teammate Isn’t Human! Mixing Decompilation and AI for Modern Reverse Engineering"](https://youtu.be/HbrebQiFLDs?si=TJhKSju85jTLSsiT), _HITCON_, 2023

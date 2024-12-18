@@ -12,7 +12,7 @@ layout: default
      </i> Arizona State University</p>
      <p><i class=
      "fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right">
-     </i> Email: zionbasque@gmail.com</p>
+     </i> Email: zbasque@asu.edu</p>
      <p><i class=
      "fa fa-code fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>
      Technical Blog: <a href=

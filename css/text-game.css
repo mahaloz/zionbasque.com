@@ -1,0 +1,229 @@
+/* Text-Based Game Aesthetic - Professional & Subtle */
+
+:root {
+  --primary-white: #ffffff;
+  --secondary-gray: #cccccc;
+  --dark-bg: #000000;
+  --darker-bg: #0a0a0a;
+  --border-subtle: #333333;
+  --accent-dim: #666666;
+}
+
+/* Subtle text-game typography */
+body {
+  font-family: 'Courier New', 'Lucida Console', Monaco, monospace !important;
+  background-color: var(--dark-bg);
+  color: var(--primary-white);
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+/* Clean monospace headers with subtle styling */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Courier New', monospace !important;
+  color: var(--primary-white);
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+/* Subtle text decoration for sections */
+h2 {
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* Enhanced button styling with game-like feel */
+.w3-button, .w3-btn {
+  font-family: 'Courier New', monospace !important;
+  background-color: var(--dark-bg) !important;
+  color: var(--primary-white) !important;
+  border: 2px solid var(--primary-white) !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  padding: 12px 24px !important;
+  transition: all 0.2s ease;
+}
+
+.w3-button:hover, .w3-btn:hover {
+  background-color: var(--primary-white) !important;
+  color: var(--dark-bg) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+/* Navigation styling - cleaner look */
+.w3-sidebar {
+  background: var(--dark-bg) !important;
+  border-right: 1px solid var(--border-subtle);
+}
+
+.w3-sidebar a {
+  color: var(--primary-white) !important;
+  font-family: 'Courier New', monospace !important;
+  font-size: 11px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid var(--border-subtle);
+  transition: all 0.3s ease;
+}
+
+.w3-sidebar a:hover {
+  background-color: var(--darker-bg) !important;
+  color: var(--secondary-gray) !important;
+  transform: translateX(2px);
+}
+
+.w3-sidebar a.w3-black {
+  background-color: var(--darker-bg) !important;
+  color: var(--secondary-gray) !important;
+}
+
+/* Links with subtle game styling */
+a {
+  color: var(--secondary-gray);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--primary-white);
+  text-decoration-style: solid;
+}
+
+/* List styling with game-like markers */
+ul li::marker {
+  content: '> ';
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: '▶ ';
+  color: var(--secondary-gray);
+  margin-right: 8px;
+}
+
+/* Subtle borders and boxes */
+hr {
+  border: none;
+  border-top: 1px dashed var(--border-subtle);
+  margin: 30px 0;
+}
+
+/* Code and pre blocks */
+pre, code {
+  background-color: var(--darker-bg);
+  border: 1px solid var(--border-subtle);
+  color: var(--secondary-gray);
+  font-family: 'Courier New', monospace;
+  padding: 15px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* Enhanced accordion styling */
+.accordion {
+  background-color: var(--darker-bg) !important;
+  color: var(--primary-white) !important;
+  border: 1px solid var(--border-subtle) !important;
+  font-family: 'Courier New', monospace !important;
+  font-size: 14px !important;
+  letter-spacing: 1px;
+  transition: all 0.3s ease !important;
+}
+
+.accordion:hover {
+  background-color: var(--accent-dim) !important;
+  transform: translateY(-1px);
+}
+
+/* Subtle animations for interactive elements */
+.game-hover:hover {
+  transform: translateX(4px);
+  transition: transform 0.2s ease;
+}
+
+/* Image styling */
+.w3-image {
+  border: 2px solid var(--border-subtle);
+  transition: border-color 0.3s ease;
+}
+
+.w3-image:hover {
+  border-color: var(--primary-white);
+}
+
+/* Clean table styling */
+.w3-table, .w3-table-all {
+  border: 1px solid var(--border-subtle);
+  background-color: var(--darker-bg);
+}
+
+.w3-table th, .w3-table-all th {
+  background-color: var(--dark-bg);
+  color: var(--primary-white);
+  border-bottom: 2px solid var(--border-subtle);
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.w3-table td, .w3-table-all td {
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--secondary-gray);
+  font-family: 'Courier New', monospace;
+}
+
+/* Enhanced glitch effect - keep existing but refine */
+.glitch {
+  color: var(--primary-white);
+  font-family: 'Courier New', monospace !important;
+  position: relative;
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+  }
+  
+  .w3-button, .w3-btn {
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 10px 20px !important;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .w3-button:hover, .w3-btn:hover,
+  .accordion:hover,
+  .game-hover:hover,
+  .w3-sidebar a:hover {
+    transform: none;
+  }
+}
+
+/* High contrast support */
+@media (prefers-contrast: high) {
+  :root {
+    --primary-white: #ffffff;
+    --secondary-gray: #ffffff;
+    --border-subtle: #ffffff;
+  }
+}
+
+/* Focus states for accessibility */
+.w3-button:focus, .w3-btn:focus,
+.w3-sidebar a:focus,
+a:focus {
+  outline: 2px solid var(--primary-white);
+  outline-offset: 2px;
+}

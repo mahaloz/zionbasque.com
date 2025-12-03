@@ -1,0 +1,275 @@
+/* Terminal Game Aesthetic - Professional Edition */
+
+:root {
+  --terminal-green: #00ff41;
+  --terminal-blue: #00d9ff;
+  --terminal-amber: #ffb000;
+  --dark-bg: #0a0a0a;
+  --darker-bg: #000000;
+  --gray-bg: #1a1a1a;
+  --border-color: #333;
+  --text-shadow: 0 0 5px currentColor;
+}
+
+/* Terminal-style animations */
+@keyframes cursor-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+@keyframes scan-lines {
+  0% { transform: translateY(-100vh); }
+  100% { transform: translateY(100vh); }
+}
+
+@keyframes text-glow {
+  0%, 100% { text-shadow: 0 0 5px currentColor, 0 0 10px currentColor; }
+  50% { text-shadow: 0 0 2px currentColor, 0 0 5px currentColor; }
+}
+
+/* Base terminal styling */
+body {
+  background-color: var(--dark-bg);
+  font-family: 'Courier New', 'Lucida Console', Monaco, monospace !important;
+  color: var(--terminal-green);
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+
+/* Subtle scan line effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--terminal-green), transparent);
+  z-index: 9999;
+  animation: scan-lines 3s linear infinite;
+  opacity: 0.1;
+}
+
+/* Terminal prompt styling for headers */
+h1, h2, h3 {
+  font-family: 'Courier New', monospace !important;
+  color: var(--terminal-blue);
+  text-shadow: var(--text-shadow);
+}
+
+h1::before { content: '> '; color: var(--terminal-amber); }
+h2::before { content: '>> '; color: var(--terminal-amber); }
+h3::before { content: '>>> '; color: var(--terminal-amber); }
+
+/* Glitch effect enhancements */
+.glitch {
+  color: var(--terminal-blue);
+  font-family: 'Courier New', monospace !important;
+  text-shadow: 0 0 10px var(--terminal-blue);
+  position: relative;
+}
+
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 var(--terminal-green);
+  top: 0;
+  color: var(--terminal-green);
+  background: var(--dark-bg);
+  overflow: hidden;
+  animation: glitch-skew 1s infinite linear alternate-reverse;
+}
+
+/* Terminal window styling */
+.terminal-window {
+  background: var(--darker-bg);
+  border: 2px solid var(--border-color);
+  border-radius: 0;
+  margin: 20px 0;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 255, 65, 0.1);
+}
+
+.terminal-header {
+  background: var(--gray-bg);
+  padding: 10px 15px;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 12px;
+  color: var(--terminal-amber);
+}
+
+.terminal-header::before {
+  content: '[●●●] ';
+  color: var(--terminal-green);
+  margin-right: 10px;
+}
+
+.terminal-content {
+  padding: 20px;
+  min-height: 100px;
+}
+
+/* Navigation styling */
+.w3-sidebar {
+  background: var(--darker-bg) !important;
+  border-right: 2px solid var(--border-color);
+}
+
+.w3-sidebar a {
+  color: var(--terminal-green) !important;
+  border-bottom: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.w3-sidebar a:hover {
+  background-color: var(--gray-bg) !important;
+  color: var(--terminal-blue) !important;
+  text-shadow: var(--text-shadow);
+}
+
+.w3-sidebar a.w3-black {
+  background-color: var(--gray-bg) !important;
+  color: var(--terminal-amber) !important;
+}
+
+/* Button styling */
+.w3-button, .w3-btn {
+  background-color: var(--darker-bg) !important;
+  color: var(--terminal-green) !important;
+  border: 1px solid var(--terminal-green) !important;
+  font-family: 'Courier New', monospace !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.w3-button:hover, .w3-btn:hover {
+  background-color: var(--terminal-green) !important;
+  color: var(--darker-bg) !important;
+  box-shadow: 0 0 15px var(--terminal-green);
+}
+
+/* Command line prompt styling */
+.command-prompt::before {
+  content: '$ ';
+  color: var(--terminal-amber);
+  font-weight: bold;
+}
+
+/* Typing cursor effect */
+.typing-cursor::after {
+  content: '█';
+  color: var(--terminal-green);
+  animation: cursor-blink 1s infinite;
+}
+
+/* Link styling */
+a {
+  color: var(--terminal-blue);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--terminal-amber);
+  text-shadow: var(--text-shadow);
+}
+
+/* Code/pre blocks */
+pre, code {
+  background-color: var(--darker-bg);
+  border: 1px solid var(--border-color);
+  color: var(--terminal-green);
+  font-family: 'Courier New', monospace;
+  padding: 10px;
+}
+
+/* Status bar styling */
+.status-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--gray-bg);
+  color: var(--terminal-green);
+  padding: 5px 15px;
+  font-size: 12px;
+  border-top: 1px solid var(--border-color);
+  z-index: 1000;
+}
+
+.status-bar::before {
+  content: '[ONLINE] ';
+  color: var(--terminal-amber);
+}
+
+/* Subtle glow for interactive elements */
+.interactive-glow:hover {
+  animation: text-glow 2s ease-in-out infinite;
+}
+
+/* ASCII art styling */
+.ascii-art {
+  font-family: 'Courier New', monospace;
+  color: var(--terminal-green);
+  font-size: 10px;
+  line-height: 1;
+  white-space: pre;
+  text-shadow: 0 0 3px currentColor;
+}
+
+/* Progress bar styling */
+.progress-bar {
+  background: var(--darker-bg);
+  border: 1px solid var(--terminal-green);
+  height: 20px;
+  margin: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bar::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: var(--progress, 0%);
+  background: var(--terminal-green);
+  transition: width 0.3s ease;
+}
+
+/* Mobile responsiveness */
+@media only screen and (max-width: 600px) {
+  .w3-sidebar {
+    display: none;
+  }
+  
+  .status-bar {
+    position: relative;
+  }
+  
+  h1::before { content: '> '; }
+  h2::before { content: '>> '; }
+  h3::before { content: '>>> '; }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  .glitch::after,
+  body::before,
+  .typing-cursor::after,
+  .interactive-glow:hover {
+    animation: none;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --terminal-green: #00ff00;
+    --terminal-blue: #0080ff;
+    --terminal-amber: #ffff00;
+  }
+}

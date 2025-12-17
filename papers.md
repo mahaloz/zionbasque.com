@@ -16,34 +16,34 @@ _NDSS_<br>
 _NeurIPS Deep Learning for Code Workshop_<br>
 <span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>
 
-**[D-LiFT: Improving LLM-based Decompiler Backend via Code Quality-driven Fine-tuning](/files/papers/dlift.pdf)**<br>
+**[D-LiFT: Improving LLM-Based Decompiler Backend via Code Quality-Driven Fine-Tuning](/files/papers/dlift.pdf)**<br>
 _arXiv preprint_<br>
 <span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>
 
 ### 2024
-**[Ahoy SAILR! There is No Need to DREAM of C: A Compiler-Aware Structuring Algorithm for Binary Decompilation](/files/papers/sailr_usenix24.pdf)**<br>
+**[Ahoy SAILR! There Is No Need to DREAM of C: A Compiler-Aware Structuring Algorithm for Binary Decompilation](/files/papers/sailr_usenix24.pdf)**<br>
 _USENIX Security_<br>
 <span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>
 
-**[Operation mango: Scalable discovery of Taint-Style vulnerabilities in binary firmware services](/files/papers/mango.pdf)**<br>
+**[Operation Mango: Scalable Discovery of Taint-Style Vulnerabilities in Binary Firmware Services](/files/papers/mango.pdf)**<br>
 _USENIX Security_<br>
 <span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>
 
-**["Len or index or count, anything but v1": Predicting Variable Names in Decompilation Output with Transfer Learning](/files/papers/varbert.pdf)**<br>
+**["Len or Index or Count, Anything but v1": Predicting Variable Names in Decompilation Output with Transfer Learning](/files/papers/varbert.pdf)**<br>
 _IEEE S&P_<br>
 <span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>
 
-**["Watching over the shoulder of a professional": Why Hackers Make Mistakes and How They Fix Them](/files/papers/hacker_mistakes.pdf)**<br>
+**["Watching Over the Shoulder of a Professional": Why Hackers Make Mistakes and How They Fix Them](/files/papers/hacker_mistakes.pdf)**<br>
 _IEEE S&P_<br>
 <span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>
 
 ### 2023
-**[Greenhouse: Single-Service rehosting of Linux-Based firmware binaries in User-Space emulation](/files/papers/greenhouse.pdf)**<br>
+**[Greenhouse: Single-Service Rehosting of Linux-Based Firmware Binaries in User-Space Emulation](/files/papers/greenhouse.pdf)**<br>
 _USENIX Security_<br>
 <span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>
 
 ### 2022
-**[I'm SPARTACUS, No, I'm SPARTACUS: proactively protecting users from phishing by intentionally triggering cloaking behavior](/files/papers/spartucus.pdf)**<br>
+**[I'm SPARTACUS, No, I'm SPARTACUS: Proactively Protecting Users from Phishing by Intentionally Triggering Cloaking Behavior](/files/papers/spartucus.pdf)**<br>
 _CCS_<br>
 <span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>
 

@@ -3,14 +3,10 @@ title: job-talk
 layout: default
 ---
 
-## Job Talk
-<hr style="width:200px" class="w3-opacity">
-
 <div class="w3-center w3-padding-16">
   <img src="images/zion_closeup.jpg" alt="Zion Basque" class="w3-image w3-round" style="max-width:300px">
+  <h3> Enabling Cyber Autonomy Through Trustworthy AI </h3>
 </div>
-
-### Enabling Cyber Autonomy Through Trustworthy AI
 
 #### Abstract
 

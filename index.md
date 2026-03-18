@@ -14,7 +14,7 @@ A central focus of my research is decompilation. I created the [Decompilation Wi
 
 Outside of academia, I am an active member of one of the world’s oldest ethical hacking groups, [Shellphish](http://shellphish.net/), where I previously served as co-captain. We compete in [CTFs](https://ctftime.org/ctf-wtf/), organize events, and build tools for the community. Drawing on this experience, I have developed **educational** resources including [pwn.college](https://pwn.college) and ['Ike](https://ike.mahaloz.re), which have reached tens of thousands of students worldwide at no cost.
 
-<div class="notice-box"> <span class="notice-tag">[NOTICE]</span> I am actively recruiting PhD students interested in <b>reverse engineering</b>, <b>program analysis</b>, and <b>AI for Security</b>. If this aligns with your interests, please <a href="mailto:zbasque@asu.edu">get in touch</a><span class="blink">_</span> </div>
+<div class="notice-box"> <span class="notice-tag">[NOTICE]</span> I am actively recruiting PhD students interested in <b>reverse engineering</b>, <b>program analysis</b>, and <b>AI for Security</b>. <a href="https://bsky.app/profile/mahal0z.bsky.social/post/3mhe3qhfzoa2b">This post</a> nicely summarizes the mission of this research. If this aligns with your interests, please <a href="mailto:zbasque@asu.edu">get in touch</a><span class="blink">_</span> </div>
 
 <button class="w3-button w3-light-grey w3-padding-large w3-section" onclick="location.href='/files/CV_Academic.pdf'" type="button">
     <i class="fa fa-download"></i> 

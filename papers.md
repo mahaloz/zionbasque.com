@@ -5,6 +5,7 @@ layout: default
 
 ## Papers
 <hr style="width:200px" class="w3-opacity">
+[Google Scholar](https://scholar.google.com/citations?user=RKZkfRQAAAAJ&hl=en)
 
 ### 2026
 **[Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering](/files/papers/dec-synergy-study.pdf)**<br>

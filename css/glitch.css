@@ -1,3 +1,51 @@
+/* Notice box — text-game style callout */
+.notice-box {
+	border: 1px dashed #888;
+	padding: 12px 16px;
+	margin: 20px 0;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 0.95em;
+	line-height: 1.6;
+	color: #ddd;
+	background: rgba(255, 255, 255, 0.04);
+	position: relative;
+}
+
+.notice-box a {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+.notice-box a:hover {
+	color: #fff;
+}
+
+.notice-tag {
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
+.blink {
+	animation: blink-cursor 1s step-end infinite;
+}
+
+@keyframes blink-cursor {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0; }
+}
+
+/* Twitter embed styling */
+.twitter-timeline-rendered {
+	border: 1px dashed #888 !important;
+	border-radius: 0 !important;
+}
+
+.twitter-timeline {
+	color: #888;
+	font-family: 'Courier New', Courier, monospace;
+}
+
 /* Our mixin positions a copy of our text
 directly on our existing text, while
 also setting content to the appropriate

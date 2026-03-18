@@ -35,6 +35,17 @@
 	50% { opacity: 0; }
 }
 
+/* Award tag for papers */
+.award-tag {
+	color: #ffd700;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 0.85em;
+	font-style: normal;
+	letter-spacing: 0.05em;
+	border: 1px dashed #ffd700;
+	padding: 1px 6px;
+}
+
 /* Twitter embed styling */
 .twitter-timeline-rendered {
 	border: 1px dashed #888 !important;

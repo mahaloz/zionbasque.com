@@ -9,7 +9,7 @@ layout: default
 
 ### 2026
 **[Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering](/files/papers/dec-synergy-study.pdf)**<br>
-_NDSS_<br>
+_NDSS_ &nbsp; <span class="award-tag">★ Distinguished Paper Award</span><br>
 <span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>
 
 ### 2025

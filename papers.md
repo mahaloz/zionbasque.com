@@ -8,6 +8,10 @@ layout: default
 [Google Scholar](https://scholar.google.com/citations?user=RKZkfRQAAAAJ&hl=en)
 
 ### 2026
+**[Oxidizer: Toward Concise and High-fidelity Rust Decompilation]()**<br>
+_IEEE S&P_<br>
+<span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>
+
 **[Decompiling the Synergy: An Empirical Study of Human–LLM Teaming in Software Reverse Engineering](/files/papers/dec-synergy-study.pdf)**<br>
 _NDSS_ &nbsp; <span class="award-tag">★ Distinguished Paper Award</span><br>
 <span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>

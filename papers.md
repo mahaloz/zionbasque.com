@@ -8,7 +8,7 @@ layout: default
 [Google Scholar](https://scholar.google.com/citations?user=RKZkfRQAAAAJ&hl=en)
 
 ### 2026
-**[Oxidizer: Toward Concise and High-fidelity Rust Decompilation]()**<br>
+**[Oxidizer: Toward Concise and High-fidelity Rust Decompilation](/files/papers/oxidizer_sp26.pdf)**<br>
 _IEEE S&P_<br>
 <span class="w3-text-grey">Code</span> | <span class="w3-text-grey">Slides</span>
 

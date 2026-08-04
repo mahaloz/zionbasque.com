@@ -9,10 +9,10 @@ layout: default
 <div class="w3-section">
     <p><i class=
      "fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right">
-     </i> Arizona State University</p>
+     </i> University of Georgia</p>
      <p><i class=
      "fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right">
-     </i> Email: zbasque@asu.edu</p>
+     </i> Email: <a href="mailto:zionbasque@uga.edu">zionbasque@uga.edu</a></p>
      <p><i class=
      "fa fa-code fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>
      Technical Blog: <a href=

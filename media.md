@@ -6,12 +6,11 @@ layout: default
 ## Media 
 <hr style="width:200px" class="w3-opacity">
 
-### Invited Talks
-- ["Buccaneers of the Binary: Plundering Compiler Optimizations for Decompilation Treasure"](https://github.com/mahaloz/talks/tree/main/2025/REverse_SAILR), _RE//verse_, 2025
-- ["Keynote: Falling in Love with CTFs: Lessons from Shellphish in Love and Loss"](https://github.com/mahaloz/talks/tree/main/2025/US_Cyber_Games_Keynote), _US Cyber Games_, 2025
-- "Improving the Understanding of Software Through Human-Centric Decompilation", _University of Hawaii, Manoa_, 2024
-- "Towards Human-Centric Decompilation", _NSA Research_, 2024
-- "ARTIPHISHELL Intelligence: Advancing Autonomous Software Security with AI", _Oracle_, 2024
+### Recorded Talks
+Find a complete list of invited talk in my [CV](https://zionbasque.com/files/CV_Academic.pdf).
+
+- ["Your AI Is Only as Smart as Your Decompiler: Binary Hacking in the Age of LLMs"](https://www.youtube.com/watch?v=ncYo6ZqSRLw), _DistrictCon_, 2026
+- ["Buccaneers of the Binary: Plundering Compiler Optimizations for Decompilation Treasure"](https://www.youtube.com/watch?v=VP29biKLoSw), _RE//verse_, 2025
 - ["Keynote: Your Teammate Isn’t Human! Mixing Decompilation and AI for Modern Reverse Engineering"](https://youtu.be/HbrebQiFLDs?si=TJhKSju85jTLSsiT), _HITCON (Taiwan)_, 2023
 - ["Modern Approaches in Human-Centric Decompilation"](https://www.youtube.com/watch?v=R13tHWScclE), _Ohio State University_, 2023
 - ["Bridging the gap in the static and dynamic analysis of binaries through decompiler tomfoolery!"](https://www.youtube.com/watch?v=-J8fGMt6UmE&t=22441s), _Cactus Con_, 2023
